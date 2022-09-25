@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Дмитрий</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="shortcut icon" href="{% static 'profile/image/x_icon.png' %}" type="image/x-icon">
+</head>
+<body>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="{% static 'profile/image/avatar.jpg' %}" class="d-block mx-lg-auto img-fluid" alt="аватарка" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Обо мне</h1>
+                <p class="lead">Город проживания: Санкт-Петербург</p>
+                <div class="lead">Увлечения:
+                    <ul>
+                        <li>Футбол
+                        <li>Программирование в совокупности с прослушиванием музыки
+                        <li>Велосипедные прогулки
+                        <li>Осуществление мыслительных процессов, лежа на кровати:)
+                    </ul>
+                </div>
+                <div class="lead">
+                    Опыт в разработке:
+                    <ul>
+                        <li>Голосовой помощник для ведения дневника с домашним заданием, к сожалению, не сохранен в облаке (PyQt5, speech_recognition)
+                        <li><a href="https://github.com/dm1itri/checkers" target="_blank">Реализация шашек (PyGame, socket)</a>
+                        <li><a href="https://github.com/dm1itri/WEB_PROJECT" target="_blank">Создания сайта для определения направления в крупной сфере IT (Flask)</a>
+                        <li><a href="https://github.com/dm1itri/individual-project-10" target="_blank">Сейчас разрабатываю веб-игру для представления, как Итоговый проект в школе (в данным момент реализуется фронтенд: HTML5, SASS, JS)</a>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
